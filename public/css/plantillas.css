@@ -1,0 +1,376 @@
+body{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	position: 0px 0px;
+	background: blue;	
+	font-family: sans-serif;
+	text-decoration: none;
+        color: black;
+        text-decoration-color: black;
+     
+}
+
+a{
+	text-decoration: none;
+	position: relative;
+        color: black;
+        text-decoration-color: black;
+}
+
+input{
+    padding: 3px;
+    margin: 3px;  
+}
+
+select {      
+  padding: 3px;
+  margin: 3px;
+  display: block;
+  width: 100%;
+  height: 34px;  
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #23527c ;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+   
+}
+
+
+.content{	
+	background: red;
+	margin: 0 auto;
+	text-decoration: none;	
+}
+
+
+.header{
+	width: 100%;
+	background: #1f58e9;	
+	float: left;
+	text-align: center;
+}
+
+.header h1,p,h3 {
+	padding: 0px;
+	margin: 0px;	
+}
+.header div{
+	/*border-color: red;
+	border-style: solid;*/
+	display:table;
+	text-align: center;
+}
+
+.logoUnamba {
+	padding: 5px;
+	float: left;
+	
+}
+.login{	
+	text-align: right;
+	float: right;
+	
+}
+/*desde aqui inicia el css del cuerpo*/
+.body div{
+        padding-top: 3px;
+	display:table;
+	text-align: center;        
+}
+.body{	
+	text-decoration: none;
+	list-style: none;
+       
+} 
+.body ul{
+	display: block;
+	text-decoration: none;
+	list-style: none;
+        float: left;
+        margin: 0px;
+        padding-left: 40px;
+        padding-right: 25px;
+            
+} 
+.body ul li{
+    float: left;
+    
+}
+.body ul img{
+	vertical-align: middle;
+	
+
+} 
+
+/* para la seccion del menu */
+.menuBar{
+	width: 15%;
+	background: #0189fd;
+	float: left;
+        height: 600px;
+
+}
+#divLogoOti{
+	padding-left: 10px;
+}
+#logoOTI{
+	width: 150px;
+}
+#menuIzquierda li a img{
+	width: 50px;
+}
+#menuIzquierda {	
+	padding-left: 10px;
+}
+
+
+/*  para la parte interina*/
+.sideBar{
+	width: 85%;
+	background: #bdd1f4;
+	float: right;
+        height: 600px;
+}
+.bodyBar{
+	padding: 10px;
+        width: 100%;
+}
+
+
+.menuInterior{    
+    width: 100%;
+}
+.menuInterior ul{   
+    width: 100%;
+}
+.menuInterior ul li{
+    margin-left: 5%;
+    
+}
+.opcionesMenu table tr td{
+    padding-left: 10px;
+}
+
+
+    
+
+
+
+
+/*desde aqui inicia el css del pie de pagina*/
+
+
+
+
+.footer{
+	width: 100%;
+	float: left;
+	background: black;
+	padding: 5px;
+	border: 0px;
+        font-family: cursive ;
+        color: white;
+        text-align: center;
+}
+
+
+
+
+
+/*aqui ponemos la parte responsiva del css
+	cuando la pantalla mide menos de 1200 px
+*/
+
+@media screen and (max-width: 1200px){
+	/*ahora pondremos los css para el header*/
+        .header h1,h2,h3,a,p,img {
+		font-size: 15px;
+	}
+	.login img{
+		width: 50px;
+	}	
+	.logoUnamba img {		
+		height: 60px;
+		margin-left: 2px;
+	}
+        
+        /*ahora pondremos los css para el menubar*/
+        .menubar{
+
+        }
+        #logoOTI{
+            width: 130px;
+            height: auto;
+        }
+        #menuIzquierda {            
+            padding-left:  10px;
+        } 
+        #menuIzquierda li a img{            
+            width: 30px;
+            height: 30px;
+        } 
+         
+        
+
+}
+
+@media screen and (max-width: 1000px){
+	.header h1,h2,h3,a,p,img {
+		font-size: 15px;
+	}
+	.login img{
+		width: 50px;
+	}
+	.logoUnamba img {		
+		height: 60px;
+		margin-left: 2px;
+	}
+        
+        /*ahora pondremos los css para el menubar*/
+        #logoOTI{
+            width: 100px;
+            height: auto;
+        }     
+        .body ul {            
+            padding-right: 5px;
+        } 
+         #menuIzquierda li a img{            
+            height: 50px;
+            width: auto;
+        } 
+        #menuIzquierda li a span{            
+            display: none;
+        } 
+        #menuIzquierda li {            
+            padding-left: 30px;
+            padding-top: 10px;
+        }
+
+}
+@media screen and (max-width: 800px){
+	.header h1,h2,h3,a,p,img {
+		font-size: 12px;		
+	}
+	.login img{
+		width: 40px;
+		height: 50px;
+	}
+	.logoUnamba{
+		padding: 2px;
+		height: 25px;	
+		margin-left: 2px;	
+	}
+	#unambaNombre{
+		display: none;
+	}
+          /*ahora pondremos los css para el menubar*/
+        #logoOTI{
+            width: 80px;
+            height: auto;
+        }     
+        .body ul {            
+            padding-right: 5px;
+        } 
+        #menuIzquierda li a img{            
+            height: 40px;
+            width: auto;
+        } 
+         #menuIzquierda li {            
+            padding-left: 15px;
+            padding-top: 10px;
+        }
+
+}
+@media screen and (max-width: 600px){
+	.header h1,h2,h3,a,p,img {
+		font-size: 10px;
+	}
+	.body div{
+		padding-top: 0px;
+	}
+	.login img{
+		width: 30px;
+		float: left;
+	}
+	.logoUnamba{
+		padding: 0px;
+		margin-left: 0px;
+	}
+	#unambaLogo{
+		height: 50px;
+	}
+	#opcionesLogin{
+        padding: 0px;
+		width: 12px;
+	}
+	#fotoUsuario{
+		display: none;
+	}
+        
+     /*ahora pondremos los css para el menubar*/
+        .menuBar{
+        	width: 100%;
+        	display: inline-block;
+        	
+        }
+        .sideBar{
+        	width: 100%;        	
+        }
+       	
+        #menuIzquierda {
+        	overflow: hidden;
+        	display: inline-block;
+        	list-style: none;
+        	float: left;
+        }
+        #divLogoOti{
+        	float: left;
+        	width: 18%;
+        	padding-top: 5px;
+        }
+        #divMenuIzquierda{
+        	width: 70%;
+        	text-align: center;
+        }
+        #menuIzquierda li a img{            
+            height: 40px;
+            width: auto;
+        } 
+         #menuIzquierda li {            
+            padding-left: 8px;
+            padding-top: 5px;
+        }
+        
+
+}
+@media screen and (max-width: 400px){
+	 #logoOTI{
+            width: 45px;
+            height: auto;
+        }     
+        .body ul {            
+            padding-right: 5px;
+        } 
+        #menuIzquierda li a img{            
+            height: 25px;
+            width: auto;
+        } 
+         #menuIzquierda li {            
+            padding-left: 5px;
+            padding-top: 5px;
+        }
+}
+
+@media screen and (max-width: 250px){
+	responsiva:none;
+}
+

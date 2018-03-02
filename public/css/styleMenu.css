@@ -1,0 +1,64 @@
+#todoContenido{
+    display: inline-block;    
+    text-align: center;
+    position: relative; 
+    top: -5px;
+  
+}
+
+#marco{    
+    border: 1px solid red;
+    position: absolute;
+    text-align: center;
+    
+}
+.opcionesMenu{
+    display: block;
+    right: 0px;    
+}
+.opcionesMenu td{
+    padding-left: 10px;   
+}
+
+.navConfiguracion{   
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.navConfiguracion li ul{    
+    display: none;
+    list-style: none;
+    background-color: rgba(0,0,1,0.2) ;
+    border-radius: 10px;
+}
+.navConfiguracion li:hover > ul{
+    position: absolute;
+    padding-top: 10px;
+    right: 10px;
+    float: right;
+    display: block;
+    z-index: +10;
+    text-align: right;
+   
+        
+    
+}
+.navConfiguracion li ul li{ 
+    padding-right: 10px;  
+    
+}
+.navConfiguracion li ul li:hover{ 
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(0,0,1,0.2);
+    border-color: #204d74;    
+}
+
+
+.navConfiguracion li ul li a{    
+    text-decoration: none;    
+    height: 100%;
+    color: white;
+    
+}

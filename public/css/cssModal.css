@@ -1,0 +1,57 @@
+#ventanaModal{
+    color: white;
+    background-image: url(../img/fondoModal.png);
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    padding: 5% 5% 5% 5%;    
+    display: none;
+    z-index: +1;
+    -moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;
+}
+.btnRef{
+    color: white;
+    background-color: #004dfd;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid red;
+    padding: 3px;  
+    -moz-transition:background-color 1s;
+    -webkit-transition:background-color 1s;
+	-o-transition:background-color 1s;
+	-ms-transition:background-color 1s;
+}
+.btnRef:hover{
+     background-color: black; 
+}
+
+/* bueno aqui de manera modal mostraremos las consultas*/
+
+.contenidoConsulta{
+   background-color: #66ccff;      
+     z-index: +1;
+     width: 100%;
+     padding: 10px;
+        -moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	-ms-transition: opacity 1s;  
+   
+    
+}
+.subcontenidoConsulta{
+    display: table-cell;
+    float: left;
+    margin-left: 20px;    
+    margin-right: 20px;
+    
+}
+.divsResponsive{
+    display: inline-table;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}

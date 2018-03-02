@@ -1,0 +1,301 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+
+header{
+	position:absolute;	
+	width: 100%;
+	height: 100px;	
+	background: #66ccff;	
+	background-size: 1600px 80px;		
+	margin-top: 0px;
+	//z-index:-1;	
+}
+#resalte{
+	position:relative;
+	top:100px;
+	background-color:#333333;
+	width:auto;
+	height:30px;
+	z-index:-1;		
+}
+
+#marque{
+	font-family: Pirate;
+	color:#ff6633;
+	font-size:26px;
+}
+
+#cuerpo{	
+	display:table;
+	position:absolute;		
+	top:130px;
+	height:800px;
+	width:1300px;	
+	
+}
+
+#menu{
+	position:relative;	
+	left:100px;
+}
+
+#menu ul li a{	
+	text-align:center;
+	font-family:salina;
+	font-size:24px;
+	text-decoration:none;
+	color:#ff6633;	
+	display:block;
+	text-shadow: 2px 2px #000000;
+	
+	
+}
+#menu ul{
+	display:inline-table;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+#menu ul li{
+	list-style:none;
+	display:inline-table;
+	margin-left:20px;
+	padding:3px;
+}
+#menu ul li:hover{	
+	border-radius:3px;
+	text-shadow:6px;
+	opacity:0.7;
+	transform:scale(0.9);	
+	-webkit-transform:scale(0.9);
+}
+
+#menu ul li img{
+	margin:auto;
+	top:5px;
+	width:40px;
+	height:40px;
+	display:table;
+}
+
+#marco{
+	display:inline-table;
+	background-color:#d7dede;
+	width:615px;
+	height:200px;
+	border-radius:10px;
+	margin:10px 0px 0px 10px;
+	padding:10px;
+
+}
+
+
+
+
+#login{
+	padding:0px;
+	margin:0px;
+	
+}
+#logeo li{
+	text-align:center;
+}
+#logeo a{
+	margin:2px;
+	padding:3px;
+	background-color:#ff6600;
+	border-radius:5px;
+}
+
+#login li{
+	list-style:none;
+	text-align:center;
+}
+#login a{
+	text-align:center;
+	font-family:Palatino Linotype;
+	font-size:18px;
+	text-decoration:none;
+	color:#aa6d51;	
+	display:inline;
+	text-align:center;
+	text-shadow: 1px 1px #000000;
+}
+#login img{
+	margin:auto;
+	top:5px;
+	width:40px;
+	height:40px;
+	display:inline;
+}
+
+#buscador_idiomas{
+	margin:0px;		
+	padding:0px;
+	display:inline;
+	width:400px;
+	
+}
+
+#buscador_idiomas a{
+	position:relative;
+	top:15px;
+	display:block;
+	color:#aa6d51;	
+	text-decoration:none;
+	text-shadow: 1px 1px #000000;
+	
+}
+#buscador_idiomas a img{	
+	display:block;	
+}
+
+#buscador_idiomas table{
+	position:relative;
+	top:5px;
+	margin-right:20px;	
+}
+#buscar img{	
+	width:40px;
+	height:40px;
+}
+
+#buscador_idiomas tr{
+	text-align:right;	
+	margin-right:10px;
+	vertical-align: middle;
+	
+}
+#buscador_idiomas td{
+	text-align:right;	
+	margin-right:10px;
+	margin-left:10px;
+	vertical-align: middle;
+	
+}
+#buscador_idiomas div{	
+	margin-right:100px;	
+}
+
+
+#titulo{
+	text-align:center;
+}
+#titulo a{
+	font-family:Salina;
+	font-size:40px;
+	color:#ff6633;		
+	text-shadow: 2px 2px #000000;
+}
+
+
+#marco2{
+	position:absolute;
+	top:0px;
+	left:1300px;
+	background-color:#333333;
+	width:260px;
+	height:600px;	
+	margin:0px 0px 0px 10px;
+	padding:10px 10px 10px 10px;
+}
+
+#marco2 ul{
+	padding:0px;
+}
+#marco2 li{
+	list-style:none;
+	border-bottom:1px solid;
+	margin-bottom: 10px;
+	padding:5px;	
+}
+#marco2 li a{
+	font-family:Vollkorn;
+	font-size:15px;
+	text-decoration: none;
+	color:#ff6633;
+	text-shadow: 2px 2px #000000;
+	
+}
+
+#marco2 li:hover{
+	border-radius:5px;
+	background-color:black;	
+	transform:scale(0.9);	
+	-webkit-transform:scale(0.9);	
+	text-decoration: inherit;
+}
+#marco2 img{
+	margin-top:20px;
+	width:50px;
+	height:50px;
+	border-radius:10px;
+}
+#marco2 img:hover{
+	transform:scale(0.9);	
+	-webkit-transform:scale(0.9);	
+		
+}
+
+footer{
+	position:relative;
+	background-color:#333333;
+	top:500px;
+	height:100px;
+	padding:10px;
+	
+}
+
+#logo{
+	top:-22px;	
+	position: relative;
+	margin:0px;
+	padding:0px;
+	z-index:+1;	
+	
+}
+
+
+#valores{
+	background-color:#d7dede;
+	width:1265px;
+	height:500px;
+	border-radius:10px;
+	margin:10px 0px 0px 10px;
+	padding:10px;
+	
+
+}
+#valores td{
+	vertical-align:top;
+
+}
+
+#val{
+	text-align:center;
+}
+#val a{
+	font-family:Salina;
+	font-size:40px;
+	color:#ff6633;		
+	text-shadow: 2px 2px #000000;
+}
+#valores ul li{
+	list-style:none;
+	display:inline;
+	margin-right:30px;
+		
+}
+#valores ul li a{
+	text-decoration:none;
+	display:inline;
+	font-size:25px;	
+}
+
+#perfilUser{
+	width:300px;
+	height:300px;
+	border-radius:30px;
+}
